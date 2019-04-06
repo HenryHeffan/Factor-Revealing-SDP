@@ -25,7 +25,7 @@ The term (variable) can take the following values. Sorry if the notation is diff
 ## Parameters:
 **"b":** vector with the objective of the PRIMAL
 
-**"w":** vector with the values of the finite sequence (rho^i)_i
+**"w":** vector with the values of the finite sequence <img src="https://latex.codecogs.com/gif.latex?(\rho^i)" />(rho^i)_i
 
 ## Primal Values:
 **"x":** tensor with the primal solution. Remark! It has size (n + 3) choose 3, not n^3, as explained in the paper.
