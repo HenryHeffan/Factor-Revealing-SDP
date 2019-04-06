@@ -24,6 +24,7 @@ The term (variable) can take the following values. Sorry if the notation is diff
 
 ## Parameters:
 "b": vector with the objective of the PRIMAL
+
 "w": vector with the values of the finite sequence (rho^i)_i
 
 ## Primal Values:
@@ -31,10 +32,15 @@ The term (variable) can take the following values. Sorry if the notation is diff
 
 ## Dual Values:
 "d1": dual values for the constraints f_{i, j, k} >= 0
+
 "d2": dual value for the constraint (sum)_{i, j, k} f_{i, j, k} = 1
+
 "iopt": value of i* (sorry for the confusion with the paper where iopt is used for something else)
+
 "o": dual values for optimality constraints
+
 "r": dual values for regularity constraints
+
 "p": dual values for psd constraints (see SCS for more details)
 
 ## Ad-Hoc Values
