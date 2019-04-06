@@ -10,6 +10,8 @@ python3.5 ./source/reserves.py -n 100 -rel 1.08 -iopt (i*) -mi 20000 -log
 
 where (i*) corresponds to the hyperparameter of the optimization and can take values in [49, 99], otherwise the result will be infeasible as expected. The results will be saved in "./source/log/mathematica" folder with id that will be printed at the end of the execution.
 
+Instances with n <= 32 require less than 16 GB memory and can be used for checking the validity of the code.
+
 # Instructions to Read Dual Certificates
 
 The files in the "./DualCertificates" folder have the form.
