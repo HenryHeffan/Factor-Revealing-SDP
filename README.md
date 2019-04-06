@@ -22,7 +22,7 @@ The files in the "./DualCertificates" folder have the form.
 
 In this folder the (id) corresponds to the value of the hyperparameter i* and as we can see takes values from 49 to 98, because 99 is infeasible.
 
-The term (variable) can take the following values. Sorry if the notation is different with the paper and hence confusing.
+The term (variable) can take the following values. We are sorry that the _notation is different with the paper_ and hence confusing.
 
 ## Parameters:
 **"b":** vector with the objective of the PRIMAL
