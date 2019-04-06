@@ -20,7 +20,7 @@ The files in the "./DualCertificates" folder have the form.
 (id)_(variable).dat
 ```
 
-The (id) corresponds to the value of the hyperparameter i* and as we can see takes values from 49 to 99.
+In this folder the (id) corresponds to the value of the hyperparameter i* and as we can see takes values from 49 to 99.
 
 The term (variable) can take the following values. Sorry if the notation is different with the paper and hence confusing.
 
